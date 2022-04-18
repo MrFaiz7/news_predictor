@@ -13,8 +13,8 @@ COPY requirements.txt .
 
 # install dependencies
 RUN pip install -r requirements.txt
-RUN python -m nltk.downloader stopwords
-RUN python -m nltk.downloader punkt
+#RUN python -m nltk.downloader stopwords
+#RUN python -m nltk.downloader punkt
 
 
 # copy the content of the directory to the working directory
